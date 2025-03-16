@@ -1,0 +1,60 @@
+/* Nome do projeto: Meu Portfolio */
+/* Autor: Vinicius Araujo */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrant:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh; /* Altura ajustável conforme necessário */
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+.title{
+    color: #e33735;
+}
+.container-main{
+    margin: 10% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.container-main-text{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container-Titulo{
+    font-size: 36px;
+    font-family: 'krona one', sans-serif;
+}
+.container-conteudo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button-links-link{
+    background-color: #e33735;
+    color: black;
+    width: 280px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 16px;
+    text-align: center;
+    padding: 21.5px 0;
+    text-decoration: none;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    border-radius: 0%;
+}
